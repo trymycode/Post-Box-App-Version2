@@ -1,7 +1,7 @@
 import firebase from "firebase/app";
 import "firebase/firestore";
 import "firebase/auth";
-
+// replace this with your own firebase config details
 var config = {
   apiKey: "AIzaSyBHPMKGmGSY3JgblM_okuOwUERq2wcoOns",
   authDomain: "social-media-app-postbox-v2.firebaseapp.com",
