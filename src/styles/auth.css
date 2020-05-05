@@ -1,0 +1,45 @@
+.signInBtn, .signUpBtn {
+  background: linear-gradient(to top, #8390fa, #a9b2f9);
+  border-radius: 4px;
+  text-transform: capitalize;
+}
+
+.signUpBtn:after {
+  width: 82px;
+  height: 10px;
+}
+
+.signInBtn:after {
+  width: 68px;
+  height: 10px;
+}
+
+.signInBtn:after, .signUpBtn:after {
+  content: '';
+  position: absolute;
+  left: 1px;
+  top: 2rem;
+  border-radius: 5px;
+  display: block;
+  background: hsl(233, 93%, 72%);
+  z-index: -1;
+  box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.6);
+}
+
+.signInBtn:hover,
+.signUpBtn:hover {
+  background: linear-gradient(to bottom, #8390fa, #8390fa);
+}
+
+.authPanel {
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 360px;
+}
+
+.authPanel h5 {
+  color: #49306B !important;
+}

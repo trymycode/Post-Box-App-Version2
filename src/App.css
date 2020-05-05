@@ -1,0 +1,322 @@
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: grey !important;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: #f88dad !important;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f7a1bb !important;
+}
+
+.color {
+  background-color: #f88dad;
+}
+
+form {
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.post-list.section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem 2.2rem;
+  background: url(./img/post-bg.png);
+  background-size: contain;
+  background-blend-mode: hard-light;
+  background-color: rgba(255, 255, 255, 0.6);
+  overflow-y: scroll;
+  height: 90vh;
+}
+
+.post-list.section a .card-content {
+  box-shadow: 0 6px 12px -4px rgba(0, 0, 0, 0.3);
+}
+
+.big {
+  font-size: 32px;
+  line-height: 68px;
+}
+
+/* navbar */
+
+.nav-color {
+  background: #49306b;
+  color: #ececec;
+}
+
+nav .brand-logo {
+  margin-top: 0.5rem;
+}
+
+nav .brand-logo:hover {
+  color: #8566aa;
+}
+
+nav ul a:hover {
+  color: #8566aa;
+}
+
+#initialLogo:hover {
+  background-color: #ececec;
+  color: #8566aa;
+  font-weight: 600px;
+}
+
+/* profile css */
+
+.profile-container {
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+}
+
+.noPostTitle {
+  color: #777;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.box-left {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 5px;
+}
+
+.box-right {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.gap {
+  margin: 5px;
+}
+
+h5.newsfeed {
+  color: #8566aa;
+  background: #fff;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 1rem;
+}
+
+.cardContent {
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.profile-container .cardContent {
+  display: flex;
+}
+
+.profile-container .prof-details {
+  padding-left: 0.5rem;
+}
+
+.profilePic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #f7a1bb;
+  box-sizing: border-box;
+}
+
+/* postLike component styles */
+
+.alignment {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.item {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* i.fa.fa-heart:hover {
+ 
+} */
+.likedColor {
+  color: coral;
+}
+
+/* person details */
+
+span.cardDesc {
+  font-size: 12px;
+  /* white-space: wrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  text-align: center !important;
+  max-width: 189px !important;
+  display: inline-block;
+}
+
+#nameColor {
+  color: #8566aa;
+  padding-top: 0;
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+#emailColor {
+  color: #777;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+/* post summery */
+
+.post-summery {
+  width: 500px;
+}
+
+.space {
+  margin: 5px 0 !important;
+  font-size: 16px;
+  color: #999;
+  margin-left: 1px !important;
+}
+
+.date {
+  font-size: 14px;
+  color: #999;
+  margin-left: 1px !important;
+}
+.summeryBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.side-left {
+  width: 100%;
+}
+.side-right {
+  width: 150px;
+}
+.side-right img {
+  max-width: 150px;
+  max-height: 150px;
+  box-sizing: border-box;
+}
+
+/* post details */
+
+.headline {
+  font-size: 20px;
+  color: #777;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+}
+.postImgUrl {
+  max-width: 800px;
+  margin-top: 10px;
+  max-height: 600px;
+}
+.cardTitle {
+  color: #8566aa;
+  font-weight: 600;
+  font-size: 30px !important;
+  margin-bottom: 15px;
+}
+
+.postDes {
+  padding: 10px 5px;
+  color: #777;
+}
+
+/* notification  */
+
+.notification-title {
+  color: #887;
+  font-weight: 400 !important;
+  letter-spacing: 1.2px;
+}
+
+.notifications {
+  max-height: 300px;
+}
+
+.Grey-text {
+  color: #666;
+}
+
+.notification-name {
+  color: #8390fa;
+}
+
+.note-date {
+  margin-bottom: 5px;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 4px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  /* background: rgb(179, 185, 196); */
+  background: #eec;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #eec;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(179, 185, 196);
+}
+
+/* SignedUp css */
+
+.imageField {
+  display: inline-block;
+}
+
+.imageLabel {
+  font-size: 16px;
+}
+
+#imageUrl {
+  margin: 10px auto;
+}
